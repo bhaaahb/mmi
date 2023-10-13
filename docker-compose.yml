@@ -9,6 +9,7 @@ services:
     environment:
       - PUID=1001
       - PGID=1001
+      - PLEX_CLAIM=
       - TZ=Europe/Paris
     volumes:
       - /home/ec2-user/config:/config
